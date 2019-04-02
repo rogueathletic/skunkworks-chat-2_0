@@ -1,0 +1,274 @@
+/* =================================================== */
+/*                         S                           */
+/*                         K                           */
+/*                         U                           */
+/*                         N                           */
+/*                         K                           */
+/*                                                     */
+/*                         W                           */
+/*                         O                           */
+/*                         R                           */
+/*                         K                           */
+/*                         S                           */
+/*                                                     */
+/*                         C                           */
+/*                         H                           */
+/*                         A                           */
+/*                         T                           */
+/* =================================================== */
+/* =================================================== */
+/*                 G L O S S A R Y                     */
+/* =================================================== */
+
+/*
+- ## Global ##
+- Button Rules
+    > Focus
+    > Hover
+    > Active
+- Chat Container
+- Chat Interior
+- MSG Input Btn
+    > Hover
+    > Active
+- Body
+- User 1
+- User 2
+- App Title In App
+- Background Layers Container
+- Background Layer 1 ( Skunk )
+- Background Layer 2 ( Blur Dark )
+- Floating Skunk Icon
+
+- ## Dev Team ##
+                Andrew T. - User Auth
+                Darren V. - Chat Structure
+                Jason  S. - Front End
+                Rene   M. - Systems
+
+*/
+/* =============================================== */
+/*                  G L O B A L                    */
+/* =============================================== */
+* {
+            outline:            none;
+    text-decoration:            none;
+}
+
+/* =============================================== */
+/*             B U T T O N  R U L E S              */
+/* =============================================== */
+.btn,
+.btn:focus,
+input[type="text"            ]:focus,
+input[type="password"        ]:focus,
+input[type="datetime"        ]:focus,
+input[type="datetime-local"  ]:focus,
+input[type="date"            ]:focus,
+input[type="month"           ]:focus,
+input[type="time"            ]:focus,
+input[type="week"            ]:focus,
+input[type="number"          ]:focus,
+input[type="email"           ]:focus,
+input[type="url"             ]:focus,
+input[type="search"          ]:focus,
+input[type="tel"             ]:focus,
+input[type="color"           ]:focus,
+.uneditable-input:focus {   
+  background-color:        #55ae73;
+        box-shadow:        1px 1px 30px rgb(75, 75, 75);
+      border-color:      transparent;
+           outline:           0 none;
+             width:            398px;
+             color:rgb(36, 36, 36);
+}
+
+
+/* =============================================== */
+/*            B U T T O N  S T A T I C             */
+.btn {
+    border-radius:           0 0 0 0; 
+}
+
+/* =============================================== */
+/*             B U T T O N : H O V E R             */
+.btn:hover {
+  background-color:     #55ae73;
+     border-radius:       0 0 0 0;
+     outline-color:   transparent;
+     box-shadow:      1px 1px 20px rgb(75, 75, 75);
+     color:     rgb(39, 39, 39);
+}
+
+/* =============================================== */
+/*           B U T T O N : A C T I V E             */
+.btn:active {
+  background-color: #55ae73;
+  border-radius:      0 0 0 0;
+  border-radius:      0 0 0 0;
+  outline-color:  transparent;
+  box-shadow:         1px 1px 10px rgb(75, 75, 75);
+  color:         whitesmoke;
+  }
+
+/* =============================================== */
+/*             B U T T O N : F O C U S             */
+  .btn:focus {
+    background-color:    #55ae73;
+       border-radius:      0 0 0 0;
+       outline-color:  transparent;
+               color: whitesmoke;
+  }
+/*         B U T T O N  R U L E S  E N D           */
+/* =============================================== */
+
+/* =============================================== */
+/*          C H A T  C O N T A I N E R             */
+/* =============================================== */
+  #chat {
+    position: absolute;
+     padding:        0;
+      bottom:        0;
+       right:        0;
+        left:     76vw;
+  }
+
+/* ================================================= */
+/*            C H A T  I N T E R I O R               */
+/* ================================================= */
+  .boxContainer {
+
+    background-color: rgba(0, 0, 0, 0.9);
+       border-radius:           0 30px 0 0;
+          box-shadow: 1px -1px rgb(134, 134, 134), -1px 1px rgb(134, 134, 134);
+            overflow:               hidden;
+             padding:                  2px;
+              margin:            0 0 0 2px;
+              height:                400px;
+               width:                400px;
+  }
+ 
+/* =================================================== */
+/*         M S G  I N P U T  &  B U T T O N            */
+/* =================================================== */
+  #message {
+             margin:         235px 0 0 4px;
+              width:                 309px;
+  }
+  
+/* =================================================== */
+/*               M S G  I N P U T                      */
+/* =================================================== */
+  #sendmessage {
+    background-color:         #00000067;
+       border-radius:           0 8px 0 0;
+               color:           #f5f5f5;
+  }
+
+/* =================================================== */
+/*          M S G  I N P U T : H O V E R               */
+/* =================================================== */
+  #sendmessage:hover {
+     border-color:              #66aeae;
+            color:              #f5f5f5;
+   }
+
+/* =================================================== */
+/*          M S G  I N P U T : A C T I V E             */
+/* =================================================== */
+   #sendmessage:active {
+    border-color:              #9acd32;
+           color:              #f5f5f5;
+   }
+
+
+
+/* =================================================== */
+/*                     B O D Y                         */
+/* =================================================== */
+#body {
+
+               background: linear-gradient(-25deg, #7aeaaf, #029eff)no-repeat center center fixed; 
+  -webkit-background-size:        cover;
+     -moz-background-size:        cover;
+       -o-background-size:        cover;
+          background-size:        cover;
+                   height:        cover;
+  }
+
+/* =================================================== */
+/*     U S E R  1  P O S I T I O N  &  C O L O R       */
+/* =================================================== */
+  #user1 {
+              text-shadow: 1px -1px rgb(0, 0, 0), -1px 1px rgb(0, 0, 0);
+               text-align:         left;
+                   margin:      0 0 0 0;
+                    width:        300px;
+                    color:    #55aeae;
+
+  }
+
+/* =================================================== */
+/*     U S E R  2  P O S I T I O N  &  C O L O R       */
+/* =================================================== */
+  #user2 {
+             text-shadow: 1px -1px rgb(0, 0, 0), -1px 1px rgb(0, 0, 0);
+              text-align:        right;
+                  margin:      0 0 0 0;
+                   width:        300px;
+                   color:    #55ae73;
+  }
+
+/* =================================================== */
+/*           A P P  T I T L E  I N  A P P              */
+/* =================================================== */
+#inner_title{
+
+      letter-spacing:           1.3vw;
+         font-weight:             100;
+         font-family:  'Montserrat', sans-serif;
+          text-align:          center;
+           font-size:            14px;
+              margin:      0 0 0 40px;
+               color:      rgb(195, 195, 195);
+}
+
+/* =================================================== */
+/*   B A C K G R O U N D  L A Y E R S  I N  A P P      */
+/* =================================================== */
+  #bg_1,
+  #bg_2 {
+             z-index:             -9;
+            position:          fixed;
+}
+
+/* =================================================== */
+/*   S K U N K  B A C K G R O U N D  L A Y E R         */
+/* =================================================== */
+#bg_1 {
+            opacity:            0.95;
+}
+
+/* =================================================== */
+/*     B L U R  B A C K G R O U N D  L A Y E R         */
+/* =================================================== */
+#bg_2 {
+           opacity:             0.63;
+            filter:       blur(10px);
+}
+
+  
+/* =================================================== */
+/*          S K U N K  C H A T  I C O N                */
+/* =================================================== */
+#skw-nc {
+            width:             25px;
+           margin:          0 0 0 0;
+}
+
+/* =================================================== */
+/*                         E                           */
+/*                         N                           */
+/*                         D                           */
+/* =================================================== */
+
